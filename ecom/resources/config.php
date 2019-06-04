@@ -24,7 +24,7 @@ defined("DB_USER") ? null : define("DB_USER","YOUR USERNAME HERE");
 
 defined("DB_PASS") ? null : define("DB_PASS", "YOUR PASSWORD HERE");
 
-defined("DB_NAME") ? null : define("DB_NAME",  "ecom_db");
+defined("DB_NAME") ? null : define("DB_NAME",  "YOUR DATABASE NAME HERE");
 
 
 
