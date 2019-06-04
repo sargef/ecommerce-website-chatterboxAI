@@ -4,14 +4,14 @@ use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
 /* Include the Composer generated autoload.php file. */
-require 'C:\wamp64\apps\phpmyadmin4.8.4\vendor\autoload.php';
+require 'autoload.php';
 $mail = new PHPMailer(TRUE);
 
 if(isset($_POST['email'])) {
-$email_to = "sargef3838@gmail.com";
+$email_to = "YOUR EMAIL ADDRESS HERE";
 $email_subject = "Website Customer";
-$email ->Username = 'sargef3838@gmail.com';
-$email ->Password = 'danmicjos';
+$email ->Username = 'YOUR USERNAME HERE';
+$email ->Password = 'YOUR PASSWORD HERE';
 $email ->SMTPSecure = 'tls';
 $email ->Port = 587;
 
