@@ -3,7 +3,7 @@
 
 http://chatterbox.sarahshelley.x10host.com/index1.html
 
-<img src="https://chatterboxai.s3-eu-west-1.amazonaws.com/Ecom.JPG" width="1250px">
+<img src="https://chatterboxai.s3-eu-west-1.amazonaws.com/Ecom.JPG" width="1250px" href "http://chatterbox.sarahshelley.x10host.com/index1.html">
 
 <img src="https://chatterboxai.s3-eu-west-1.amazonaws.com/kids.JPG" width="1250px">
 
