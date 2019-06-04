@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<title>Chatterbox AI</title>
+  <embed name="Background" src="music\Ster.mp3" loop="false" hidden="true" autostart="true">
+</head>
+   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
+    <!-- Note that the below Bootstrap file is a specific version. If you grab the most
+    current from Bootstrap website, you will see the button grow transition being a lot faster
+    than in my video. Use whichever style sheet you like best! -->
+    <!-- Bootstrap CSS from a CDN. This way you don't have to include the bootstrap file yourself -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<style>
+
+* {box-sizing: border-box;}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: black;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #00008b;
+  color: white;
+}
+
+.topnav .search-container {
+  float: right;
+}
+
+.topnav input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+}
+
+.topnav .search-container button {
+  float: right;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.topnav .search-container button:hover {
+  background: #ccc;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav .search-container {
+    float: none;
+  }
+  .topnav a, .topnav input[type=text], .topnav .search-container button {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+  .topnav input[type=text] {
+    border: 1px solid #ccc;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="topnav">
+  <a href="index1.html" class="active">Home</a>
+  <a href="startupweb.html" class="active">Subscribe</a>
+  <a href="contact.html" class="active">Contact</a>
+  <a href="index.php" class="active">Shop</a>
+  <div class="search-container">
+
+  </div>
+</div>
+
+
+
+<style>
+	h1 {
+		color: white;
+		font-family: verdana;
+		font-size: 480%;
+		text-align: center;
+		justify-content: center;
+    padding-top: 250px;
+	}
+	h2 {
+		color: black;
+		font-family: sans-serif;
+		font-size: 200%;
+		text-align: center;
+		justify-content: top;
+	}
+  footer {
+    color: black;
+    font-family: verdana;
+    font-size: 250%;
+    position: bottom-center;
+    left: 10;
+    bottom: 0;
+    text-align: center;
+    padding-top: 1px;
+  }
+
+body {background-image: url("images/fantasy-3645269_1920.jpg");
+background-repeat: no-repeat;
+background-size: 2000px 1160px;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Arima+Madurai:300');
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.bird {
+  background-image: url(images/AdobeStock_38402087.svg);
+  background-size: auto 100%;
+  width: 1352px;
+  height: 500px;
+  will-change: background-position;
+
+  animation-name: fly-cycle;
+  animation-duration: 1.7s;
+  animation-delay: -1s;
+  animation-timing-function: steps(3);
+  animation-iteration-count: infinite;
+}
+
+.bird-container {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  will-change: transform;
+}
+
+@keyframes fly-cycle {
+
+  100% {
+    background-position: -3600px 0;
+  }
+}
+</style>
+  <div class="container">
+  <div class="bird-container">
+  <div class="bird"></div>
+  </div>
+  </div>
+<h1>Welcome to Chatterbox AI</h1>
+<h2></h2>
+<footer><a href="skilllistproject2.html">Enter Chatbot Styler</a>
+</footer>
+</body>
+</html>
